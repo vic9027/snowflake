@@ -1,0 +1,22 @@
+{
+    "name": "sunny-daisy/snowflake",
+    "description": "a package of snowflake",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wenqiang1",
+            "email": "wenqiang1@staff.sina.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Daisy\\SnowFlake\\":"src/"}
+    }
+}
